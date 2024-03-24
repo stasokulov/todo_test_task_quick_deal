@@ -6,14 +6,14 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      // path: '/',
-      path: `${import.meta.env.VITE_APP_BASE_URL}/`,
+      path: '/',
+      // path: `${import.meta.env.VITE_APP_BASE_URL}/`,
       name: 'home',
       component: HomeView
     },
     {
-      // path: '/todo-list',
-      path: `${import.meta.env.VITE_APP_BASE_URL}/todo-list`,
+      path: '/todo-list',
+      // path: `${import.meta.env.VITE_APP_BASE_URL}/todo-list`,
       name: 'todo-list',
       component: TodoListView
     }
