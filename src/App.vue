@@ -1,9 +1,8 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 
-const baseURL = import.meta.env.PROD ? import.meta.env.VITE_APP_BASE_URL : ''
-const homeLink = `${baseURL}/`
-const todoListLink = `${baseURL}/todo-list`
+const homeLink = `${import.meta.env.VITE_APP_BASE_URL}/`
+const todoListLink = `${import.meta.env.VITE_APP_BASE_URL}/todo-list`
 </script>
 
 <template>

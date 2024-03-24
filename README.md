@@ -2,6 +2,8 @@
 
 Тестовое задание по вакансии от компании "Quick Deal"
 
+Ссылка на сайт: https://stasokulov.github.io/todo_test_task_quick_deal/
+
 ## Project Setup
 
 ```sh
