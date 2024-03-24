@@ -1,13 +1,17 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+
+const baseURL = import.meta.env.PROD ? import.meta.env.VITE_APP_BASE_URL : ''
+const homeLink = `${baseURL}/`
+const todoListLink = `${baseURL}/todo-list`
 </script>
 
 <template>
   <header>
     <div class="wrapper">
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/todo-list">ToDo List</RouterLink>
+        <RouterLink :to="homeLink">Home</RouterLink>
+        <RouterLink :to="todoListLink">ToDo List</RouterLink>
       </nav>
     </div>
   </header>
