@@ -4,6 +4,10 @@
 
 Ссылка на сайт: https://stasokulov.github.io/todo_test_task_quick_deal/
 
+## Деплой на Github Pages
+
+Создать папку docs, переместить туда содержимое папки dist, скопировать файл index.html и переименовать его в 404.html.
+
 ## Project Setup
 
 ```sh
