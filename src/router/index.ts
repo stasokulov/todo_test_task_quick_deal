@@ -7,13 +7,11 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      // path: `${import.meta.env.VITE_APP_BASE_URL}/`,
       name: 'home',
       component: HomeView
     },
     {
       path: '/todo-list',
-      // path: `${import.meta.env.VITE_APP_BASE_URL}/todo-list`,
       name: 'todo-list',
       component: TodoListView
     }
