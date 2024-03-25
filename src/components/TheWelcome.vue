@@ -27,11 +27,6 @@ import EcosystemIcon from './icons/IconEcosystem.vue'
       rel="noopener"
       >Ссылка на текст задания</a
     >
-
-    <!-- <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a> and
-    <a href="https://on.cypress.io/component" target="_blank" rel="noopener"
-      >Cypress Component Testing.</a
-    > -->
   </WelcomeItem>
 
   <WelcomeItem>
@@ -44,6 +39,5 @@ import EcosystemIcon from './icons/IconEcosystem.vue'
     <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
     <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
     <a href="https://vuetifyjs.com/" target="_blank" rel="noopener">Vuetify</a>.
-    <!-- <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>. -->
   </WelcomeItem>
 </template>
